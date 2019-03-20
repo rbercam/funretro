@@ -38,7 +38,7 @@ jobs:
       # run tests!
       - run:
           name: run Cypress
-          command: node_modules/.bin/cypress cypress run --record --key b59ef464-6f5d-4728-8670-ac78ac0d2990
+          command: node_modules/.bin/cypress run --record --key b59ef464-6f5d-4728-8670-ac78ac0d2990
 
       - store_artifacts:
           path: ~/funretro/cypress/screenshots
